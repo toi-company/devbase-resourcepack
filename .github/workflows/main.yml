@@ -19,4 +19,4 @@ jobs:
       with:
         artifacts: "pack.zip"
         tag: "pack"
-        skipIfReleaseExists: true
+        replacesArtifacts: true
