@@ -11,8 +11,11 @@ jobs:
     permissions:
       contents: write
     steps:
+    - uses: actions/checkout@v2
+    - name: Rename file 
+      run: mv Tois* pack.zip
     - uses: actions/checkout@v3
     - uses: ncipollo/release-action@v1
       with:
-        artifacts: "ToisGun*"
+        artifacts: "pack.zip"
         tag: "pack"
