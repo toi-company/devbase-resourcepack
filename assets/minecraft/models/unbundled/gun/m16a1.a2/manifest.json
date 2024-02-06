@@ -1,0 +1,6 @@
+{
+    "name": "m16a1.a2",
+    "model": "m16a1.a2.json",
+    "states": "states.json",
+    "generation_flag": true
+}

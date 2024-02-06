@@ -1,0 +1,13 @@
+{
+    "providers": [
+        {
+            "type": "bitmap",
+            "file": "minecraft:font/gunsmith_gui.png",
+            "ascent": -3,
+            "height": 56,
+            "chars": [
+                "\uE000"
+            ]
+        }
+    ]
+}

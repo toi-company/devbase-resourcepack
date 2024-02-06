@@ -1,0 +1,6 @@
+{
+    "name": "vector",
+    "model": "vector.json",
+    "states": "states.json",
+    "generation_flag": true
+}

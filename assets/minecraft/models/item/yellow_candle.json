@@ -1,0 +1,11 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "item/yellow_candle"
+    },
+    "overrides": [
+        {"predicate": {"custom_model_data": 1},
+        "model": "item/casing/7.62x39"}
+
+    ]
+}

@@ -1,0 +1,30 @@
+{
+    "$id": "schema.json",
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "title": "CustomAttachmentsItemManifest",
+    "description": "Checker for Custom Attachments Item Manifest",
+    "type": "object",
+    "required": [
+        "name",
+        "model",
+        "states"
+    ],
+    "properties": {
+        "name": {
+            "type": "string",
+            "description": "item's name"
+        },
+        "model": {
+            "type": "string",
+            "description": "name of model file (Use Blockbench to create model)"
+        },
+        "states": {
+            "type": "string",
+            "description": "name of states file (See states.json of template to get more infomation)"
+        },
+        "generation_flag":{
+            "type": "boolean",
+            "description": "if this is true,that model will be generated"
+        }
+    }
+}

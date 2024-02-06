@@ -1,0 +1,6 @@
+{
+    "name": "ithaca37",
+    "model": "ithaca37.json",
+    "states": "states.json",
+    "generation_flag": true
+}

@@ -1,0 +1,6 @@
+{
+    "name": "ppsh42",
+    "model": "ppsh41.json",
+    "states": "states.json",
+    "generation_flag": true
+}

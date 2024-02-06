@@ -1,0 +1,66 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"1": "item/gun/iron",
+		"particle": "item/gun/metal"
+	},
+	"elements": [
+		{
+			"from": [7, -0.05, 7],
+			"to": [9, 2.95, 9],
+			"rotation": {"angle": 0, "axis": "x", "origin": [8.5, 1.4, 3]},
+			"faces": {
+				"north": {"uv": [2, 4, 5, 6], "rotation": 270, "texture": "#1"},
+				"east": {"uv": [7, 6, 10, 8], "rotation": 90, "texture": "#1"},
+				"south": {"uv": [2, 10, 5, 12], "rotation": 90, "texture": "#1"},
+				"west": {"uv": [10, 6, 13, 8], "rotation": 270, "texture": "#1"},
+				"up": {"uv": [1, 6, 3, 8], "texture": "#1"},
+				"down": {"uv": [2, 6, 4, 8], "rotation": 180, "texture": "#1"}
+			}
+		}
+	],
+	"gui_light": "front",
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [23.84, 58.07, -41.68],
+			"translation": [-2, 4, -1.25],
+			"scale": [0.45, 0.45, 0.45]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [23.84, 58.07, -41.68],
+			"translation": [-2, 4, -1.25],
+			"scale": [0.45, 0.45, 0.45]
+		},
+		"firstperson_righthand": {
+			"rotation": [-20.64, 51.83, 41.91],
+			"translation": [-9.5, 11, 0]
+		},
+		"firstperson_lefthand": {
+			"rotation": [8, -59.04, 1.04],
+			"translation": [-1.75, 12.5, 0]
+		},
+		"ground": {
+			"translation": [0, 4, 0],
+			"scale": [0.6, 0.6, 0.6]
+		},
+		"gui": {
+			"rotation": [97.5, 45, -90],
+			"translation": [3, 2.75, 0],
+			"scale": [0.6, 0.6, 0.6]
+		},
+		"head": {
+			"translation": [-2.25, 25.75, -21],
+			"scale": [4, 4, 4]
+		}
+	},
+	"groups": [
+		{
+			"name": "group",
+			"origin": [0, 0, 0],
+			"color": 0,
+			"nbt": "{}",
+			"armAnimationEnabled": false,
+			"children": [0]
+		}
+	]
+}

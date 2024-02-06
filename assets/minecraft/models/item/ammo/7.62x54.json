@@ -1,0 +1,112 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"2": "item/gun/metal",
+		"particle": "item/gun/plastic_cream"
+	},
+	"elements": [
+		{
+			"from": [8, -1.5, 6.5],
+			"to": [9, 4.5, 9.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8.5, 2.5, 12.5]},
+			"faces": {
+				"north": {"uv": [1, 4, 2, 10], "texture": "#2"},
+				"east": {"uv": [6, 4, 9, 10], "texture": "#2"},
+				"south": {"uv": [9, 4, 10, 10], "texture": "#2"},
+				"west": {"uv": [4, 4, 7, 10], "texture": "#2"},
+				"up": {"uv": [3, 2, 4, 5], "texture": "#2"},
+				"down": {"uv": [6, 7, 7, 10], "texture": "#2"}
+			}
+		}
+	],
+	"gui_light": "front",
+	"display": {
+		"thirdperson_righthand": {
+			"translation": [0, 4.75, 0.5],
+			"scale": [0.525, 0.525, 0.525]
+		},
+		"thirdperson_lefthand": {
+			"translation": [0, 4.75, 0.5],
+			"scale": [0.525, 0.525, 0.525]
+		},
+		"firstperson_righthand": {
+			"rotation": [-20, 0, 0],
+			"translation": [1, 9, -1.5]
+		},
+		"firstperson_lefthand": {
+			"rotation": [-20, 0, 0],
+			"translation": [1, 9, -1.5]
+		},
+		"ground": {
+			"rotation": [0, 0, 90],
+			"scale": [0.525, 0.525, 0.525]
+		},
+		"gui": {
+			"rotation": [45, 45, -45],
+			"translation": [2.75, 5, 0]
+		},
+		"fixed": {
+			"rotation": [0, -90, 0],
+			"translation": [0, 0, -2]
+		}
+	},
+	"groups": [
+		{
+			"name": "dragunov",
+			"origin": [0, 0, 4],
+			"color": 0,
+			"nbt": "{}",
+			"armAnimationEnabled": false,
+			"children": [
+				{
+					"name": "trigger",
+					"origin": [8.5, 2.5, 8.5],
+					"color": 0,
+					"nbt": "{}",
+					"armAnimationEnabled": false,
+					"children": []
+				},
+				{
+					"name": "ammo",
+					"origin": [8.5, 2.5, 10.5],
+					"color": 0,
+					"nbt": "{}",
+					"armAnimationEnabled": false,
+					"children": [0]
+				},
+				{
+					"name": "1",
+					"origin": [8.5, 2.5, 10.5],
+					"color": 0,
+					"nbt": "{}",
+					"armAnimationEnabled": false,
+					"children": []
+				},
+				{
+					"name": "2",
+					"origin": [0, 0, 4],
+					"color": 0,
+					"nbt": "{}",
+					"armAnimationEnabled": false,
+					"children": []
+				},
+				{
+					"name": "stock",
+					"origin": [8.5, 3.80343, 27.9609],
+					"color": 0,
+					"nbt": "{}",
+					"armAnimationEnabled": false,
+					"children": []
+				}
+			]
+		},
+		{
+			"name": "3.0xscope",
+			"origin": [0, 0, 0],
+			"color": 0,
+			"nbt": "{}",
+			"armAnimationEnabled": false,
+			"children": []
+		}
+	]
+}

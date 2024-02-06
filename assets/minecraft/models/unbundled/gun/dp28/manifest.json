@@ -1,0 +1,6 @@
+{
+    "name": "dp28",
+    "model": "dp28.json",
+    "states": "states.json",
+    "generation_flag": true
+}

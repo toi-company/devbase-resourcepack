@@ -1,0 +1,6 @@
+{
+    "name": "mp5",
+    "model": "mp5.json",
+    "states": "states.json",
+    "generation_flag": true
+}

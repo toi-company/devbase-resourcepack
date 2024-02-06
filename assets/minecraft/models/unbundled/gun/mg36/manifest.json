@@ -1,0 +1,6 @@
+{
+    "name": "mg36",
+    "model": "mg36.json",
+    "states": "states.json",
+    "generation_flag": true
+}

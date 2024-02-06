@@ -1,0 +1,6 @@
+{
+    "name": "mp7",
+    "model": "mp7.json",
+    "states": "states.json",
+    "generation_flag": true
+}

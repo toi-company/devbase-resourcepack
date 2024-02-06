@@ -1,0 +1,6 @@
+{
+    "name": "m4a1",
+    "model": "m4a1.json",
+    "states": "states.json",
+    "generation_flag": true
+}

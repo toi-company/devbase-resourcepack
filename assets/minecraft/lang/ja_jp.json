@@ -1,0 +1,7 @@
+{
+  "death.attack.shot": "%1$sは射殺された",
+  "death.attack.shot.player": "%1$sは%2$sに射殺された",
+  "death.attack.shot.player.item": "%1$sは%2$sの%3$sで射殺された",
+  "death.attack.explosion.item": "%1$sは%2$sの%3$sで爆破された",
+  "toisgun.gui.gunsmith": "ガンスミス"
+}
