@@ -18,3 +18,4 @@ jobs:
           script: |
             cd /home/ubuntu/web/devbase-resourcepack
             git pull
+            zip build/pack.zip assets/ pack.mcmeta pack.png
